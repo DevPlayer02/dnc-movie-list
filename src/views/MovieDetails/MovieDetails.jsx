@@ -35,7 +35,7 @@ const MovieDetail = () => {
               <span>Budget:</span> {movie.budget}
             </div>
             <div className="MovieDetail__detail">
-              <span>Original languege:</span> {movie.original_languegem}
+              <span>Original language:</span> <span className="language">{movie.original_language}</span>
             </div>
             <div className="MovieDetail__detail">
               <span>Popularity:</span> {movie.popularity}

@@ -1,12 +1,12 @@
 /* Cores */
-$primary-bg-color: rgb(48, 48, 48);
-$primary-button-color: #0071c5;
-$primary-button-hover-color: #005896;
+$primary-bg-color: rgb(0, 0, 0);
+$primary-button-color: #ffffff;
+$primary-button-hover-color: #960000;
 
 .MovieDetail {
     color: white;
     background-color: $primary-bg-color;
-    padding: 40px 0;
+    padding: 150px 0;
 
     &__container {
         max-width: 1200px;
@@ -22,19 +22,19 @@ $primary-button-hover-color: #005896;
 
     &__col {
         flex: 1;
-        margin: 0 10px;
+        margin: 0 100px;
     }
 
     &__title {
         font-size: 48px;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
         text-align: center;
     }
 
     &__image {
         width: 100%;
         height: auto;
-        margin-bottom: 30px;
+        margin-bottom: 75px;
 
         img {
             border-radius: 0.5rem;
@@ -44,12 +44,12 @@ $primary-button-hover-color: #005896;
 
     &__details {
         font-size: 24px;
-        margin-bottom: 30px;
+        margin-bottom: 75px;
     }
 
     &__detail {
-        margin-bottom: 10px;
-
+        margin-bottom: 25px;
+        
         span {
             font-weight: bold;
             margin-right: 10px;
@@ -62,7 +62,7 @@ $primary-button-hover-color: #005896;
         margin-right: auto;
         margin-left: auto;
         background-color: $primary-button-color;
-        color: #FFF;
+        color: #000000;
         padding: 10px 20px;
         border-radius: 5px;
         border: none;
@@ -72,6 +72,11 @@ $primary-button-hover-color: #005896;
 
         &:hover {
             background-color: $primary-button-hover-color;
+            color: white;
         }
     }
+}
+
+.language{
+    text-transform: uppercase;
 }
