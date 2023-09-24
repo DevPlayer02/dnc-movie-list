@@ -1,0 +1,12 @@
+.Home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding-top: 150px;
+
+    > div {
+        margin: 5px;
+    }
+}
